@@ -33,8 +33,17 @@ height: 400px;
 <h2>Meu primeiro post</h2>
 <p>By: Raissa Levandoski</p>
 <p>Boas-vindas ao meu novo blog! Aqui vamos falar não apenas sobre procedimentos estéticos, mas sobre como a auto estima de uma mulher realmente importa.</p>
+    <button>❤️<span>0</span></button>
 </main>  
 </body>
+    <script>
+const botao = document.querySelector("button");
+botao.addEventListener("click", botaoClicado);
+        function botaoClicado() {
+let texto = botao.querySelector("span");
+texto.textContent++;
+}
+</script>
 </html>
 
 
