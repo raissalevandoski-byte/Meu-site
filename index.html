@@ -43,7 +43,7 @@ const botoes = document.querySelectorAll("button");
             let curtiu = false;
 botao.addEventListener("click", function(){
 console.log("fui clicado");
-    const texto=botao.querySelector("span");
+    const texto = botao.querySelector("span");
 
 if (curtiu === false) {
 texto.textContent++;
@@ -52,7 +52,8 @@ curtiu = true;
 texto.textContent--;
 curtiu = false;
 }
-}
+});
+        });
 </script>
 </html>
 
